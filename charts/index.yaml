@@ -3,11 +3,11 @@ entries:
   empty:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-01-28T16:22:21.212708-08:00
+    created: 2019-01-28T16:24:30.570075-08:00
     description: An empty Helm chart for Kubernetes
-    digest: c7bc66e3fd4c1d42c4e72670d4483a582eeae51b71a55e4467afbbd0de979094
+    digest: e26fb57e549bb6c241d5be7cda7babb3067858321b664586ebf7556e53205953
     name: empty
     urls:
     - empty-0.1.0.tgz
     version: 0.1.0
-generated: 2019-01-28T16:22:21.212294-08:00
+generated: 2019-01-28T16:24:30.569545-08:00
