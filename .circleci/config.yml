@@ -1,7 +1,18 @@
 version: 2
 jobs:
-  build:
+  run:
     docker:
       - image: alpine
     steps:
       - run: echo hi
+  swim:
+    docker:
+      - image: alpine
+    steps:
+      - run: echo hi
+workflows:
+  version: 2
+  build:
+    jobs:
+      - run
+      - swim
