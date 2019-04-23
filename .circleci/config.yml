@@ -5,8 +5,3 @@ jobs:
       - image: alpine
   steps:
     - run: echo hi
-workflows:
-  version: 2
-  run-all:
-    jobs:
-      - run
