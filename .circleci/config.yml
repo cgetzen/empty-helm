@@ -3,5 +3,5 @@ jobs:
   run:
     docker:
       - image: alpine
-  steps:
-    - run: echo hi
+    steps:
+      - run: echo hi
